@@ -11,9 +11,10 @@ la ruta para crear rutas con react router dom 6
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>~~~
+  </React.StrictMode> ~~~
 
-  4. in routes document : import { Routes, Route, Link } from "react-router-dom";
+  4. in routes document : 
+  import { Routes, Route, Link } from "react-router-dom";
 
 
     ~~~ <Routes>
