@@ -14,6 +14,8 @@ la ruta para crear rutas con react router dom 6
   </React.StrictMode>~~~
 
   4. in routes document : import { Routes, Route, Link } from "react-router-dom";
+
+
     ~~~ <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
