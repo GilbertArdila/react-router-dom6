@@ -7,12 +7,8 @@ la ruta para crear rutas con react router dom 6
 
 2. import { BrowserRouter } from "react-router-dom";
 
-3. <pre><code><React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-</code></pre>
+3. <React.StrictMode><BrowserRouter>  <App /></BrowserRouter> </React.StrictMode>
+
 
   
 
@@ -21,8 +17,5 @@ la ruta para crear rutas con react router dom 6
 
 
    
-   <pre><code> <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-      </Routes></code></pre>
+  <Routes><Route path="/" element={<Home />} /><Route path="about" element={<About />} /> </Routes>
      
